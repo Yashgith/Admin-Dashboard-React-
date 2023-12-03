@@ -20,7 +20,7 @@ export default function UsersData() {
             }
         }
         fetchUsersInfo()
-    }, [])
+    }, [] )
 
     let deleteUser = (userId) => {
         setUsersInfo((prevUsers) => prevUsers.filter((user) => user.id !== userId))
